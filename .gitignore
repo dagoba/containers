@@ -1,0 +1,7 @@
+/nbproject
+/.idea
+/vendor
+.env
+composer.lock
+/config/db.php
+/runtime/

@@ -1,0 +1,134 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {margin:0; padding:0; border:0; font-size:100%; font:inherit; vertical-align:baseline;}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {display:block;}
+.auto-height{overflow: hidden;}
+ol, ul{list-style:none;}
+blockquote, q{quotes:none;}
+blockquote:before, blockquote:after, q:before, q:after {content:'';content:none;}
+table{border-collapse:collapse; border-spacing:0;}
+a:hover{text-decoration:underline;}
+* {margin:0; padding:0; border:none;}
+html, body {height:calc(100%-75px); width:100%; margin:0px; padding:0px; font-family: "Open Sans",sans-serif;}
+table, td, th {border-collapse:collapse;}
+.alert{
+    position: relative;
+    z-index: 2147483647;
+    
+}
+.field-passwordchangeform-currentpassword input{
+    
+}
+.password-custom{
+    position: relative;
+}
+.password-custom input{
+    display: inline-block;
+    padding-right: 30px;
+}
+.password-custom .btn-show-pass{
+    position: absolute;
+    right: 10px;
+    top:10px;
+    width:20px;
+    height: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+div.cbalink{
+    display: none;
+}
+.navbar-brand {
+    background-image: url('../images/logo_top.png');
+    width: 235px;
+    height: 57px;
+    margin: 20px 0px;
+}
+.mymenu {
+    border-radius: 0px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+}
+.mymenu .navbar-nav > li > a {
+    color: #292468;
+    text-transform: uppercase;
+    font-family: Lato;
+    border-bottom: 2px solid #fff;
+    background-color: #fff !important;
+    color: #292468 !important;
+    line-height: 65px;
+}
+.mymenu .navbar-nav > li > a:hover, .mymenu .navbar-nav > li.active > a {
+    background-color: #fff;
+    border-bottom: 2px solid #292468;
+    color: #292468;
+    border-bottom-color: #292468;
+}
+.mymenu .navbar-nav > li.active > a {
+    font-weight: bold;
+}
+.enter {
+    border-left: 1px solid #ccc;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+.lang-first {
+    color: red;
+    width: 48px;
+    height: 33px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    background-image: url('../images/flags.png');
+}
+.lang-en {background-position: -6px -14px;}
+.lang-ru {background-position: -271px -14px;}
+.lang-de {background-position: -165px -14px;}
+.no-padding {
+    padding: 0px;
+    border: none;
+    box-shadow: none !important;
+    border-radius: 0px;
+}
+.langcss {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.arrowlang {
+    position: relative;
+    top: -10px;
+}
+.containersl .breadcrumb{
+    margin-top: 20px;
+}
+.gcblock {padding: 15px 15px 20px;}
+.gcblock p {height: 4px;}
+.bgred {background-color: #EA4335;border-radius: 3px 0px 0px 3px;}
+.bgblue {background-color: #4285f4;}
+.bgyellow {background-color: #fbbc05;}
+.bggreen {background-color: #34A853;border-radius: 0px 3px 3px 0px;}
+.nclogin input {font-size: 18px;height: 40px;}
+.w-100p {width: 100%;}
+.rp-link {margin-top: 7px;}
+.pt0 {padding-top: 0px;}
+.mymenu span.menu-counter{
+    background-color: #EF3828;
+    color:#fff;
+    font-size: 10px;
+    border-radius: 50%;
+    padding: 3px 5px;
+    top:-10px;
+    left:10px;
+    position: relative;
+}

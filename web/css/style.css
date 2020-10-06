@@ -1,0 +1,601 @@
+@font-face {
+    font-family: "HelveticaNeueCyr-Roman";
+    src: url("../fonts/HelveticaNeueCyr-Roman.otf");
+}
+@font-face {
+    font-family: "HelveticaNeueCyr-Bold";
+    src: url("../fonts/HelveticaNeueCyr-Bold.otf");
+}
+@font-face {
+    font-family: "HelveticaNeueCyr-Light";
+    src: url("../fonts/HelveticaNeueCyr-Light.otf");
+}
+body{font-family: "HelveticaNeueCyr-Roman";}
+.vcenter {display: inline-block;float: none;vertical-align: middle;}
+.strong{font-weight: bold !important;}
+.shippiting{
+    background-image: url("../images/pic/top_pic.jpg");
+    background-position: center;
+    height: 780px;
+}
+.shippiting h1{
+    font-size: 45px;
+    font-family: "HelveticaNeueCyr-Bold";
+    color: #164ac4;
+    margin-top: 170px;
+    margin-bottom: 0;
+}
+.shippiting h3 {
+    font-family: "HelveticaNeueCyr-Bold";
+    color: #153767;
+    margin-top: 0;
+}
+.shippiting p{
+    font-size: 21px;
+    font-family: "HelveticaNeueCyr-Roman";
+    color: #0f1e34;
+    margin: 20px 0 20px 0;
+}
+.shippiting a, .online_consultation a, .shippiting button, .shippiting_button button{
+    background-color: #4500C7;
+    border-radius: 4px;
+    display: block;
+    color: #fff;
+    float: left;
+    margin-right: 20px;
+    font-family: "HelveticaNeueCyr-Bold";
+    text-decoration: none;
+    width: 200px;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #4500C7;
+    margin-bottom: 20px;
+    transition: 0.33s;
+}
+.shippiting a:hover, .online_consultation a:hover, .shippiting button:hover, .shippiting_button button:hover{
+    color: #153767;
+    border: 1px solid #153767;
+    background-color: transparent;
+}
+.shippiting_button{
+    margin-top: 50px;
+}
+.about_use{
+    background-color: #F5F5F5;
+}
+.about_use_img_map{
+    background-image: url("../images/pic/map_about-us.png");
+    height: 344px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.about_use_first, .advantages_first, .about_company_first, .types_of_containers_first{
+    font-family: "HelveticaNeueCyr-Roman";
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 100px 0 0 0;
+}
+.about_use_first, .advantages_first, .types_of_containers_first{
+    color: #153767;
+}
+.about_use h3, .advantages h3, .about_company h3, .logical_service h3, .types_of_containers h3{
+    font-family: "HelveticaNeueCyr-Bold";
+    font-size: 35px;
+    margin: 10px 0 40px 0;
+}
+.about_use h3, .advantages h3, .logical_service h3, .types_of_containers h3{
+    color: #153767;
+}
+.about_use_text{
+    font-family: "HelveticaNeueCyr-Roman";
+    padding-left: 0;
+    font-size: 18px;
+    color: #0f1e34;
+}
+.about_use_text p{
+    margin: 28px 0;
+}
+a.about_use_a, a.about_company_a, button.about_company_a, button.about_use_a{
+    background-color: #328CE7;
+    border-radius: 4px;
+    display: block;
+    color: #fff;
+    font-family: "HelveticaNeueCyr-Bold";
+    text-decoration: none;
+    width: 200px;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #328CE7;
+    z-index: 10;
+    transition: 0.33s;
+}
+a.about_use_a, button.about_use_a{
+    margin: 40px auto 80px auto;
+}
+a.about_use_a:hover, button.about_use_a:hover{
+    background-color: #164AC4;
+}
+
+
+.advantages{
+    padding-bottom: 80px;
+}
+.advantages_img{
+    background-position: center;
+    width: 80px;
+    height: 75px;
+    margin: 0 auto;
+}
+.advantages_icon1{
+    background-image: url("../images/icon/1.png");
+}
+.advantages_icon2{
+    background-image: url("../images/icon/2.png");
+}
+.advantages_icon3{
+    background-image: url("../images/icon/3.png");
+}
+.advantages_icon4{
+    background-image: url("../images/icon/4.png");
+}
+.advantages_icon5{
+    background-image: url("../images/icon/5.png");
+}
+.advantages_icon6{
+    background-image: url("../images/icon/6.png");
+}
+.advantages_block h5{
+    font-family: "HelveticaNeueCyr-Bold";
+    font-size: 16px;
+    color: #164ac4;
+    text-transform: uppercase;
+}
+.advantages_block p{
+    font-family: "HelveticaNeueCyr-Roman";
+    font-size: 16px;
+    margin: 24px 0;
+    color: #0f1e34;
+}
+.about_company{
+    background-image: url("../images/pic/pic_Transportations.jpg");
+    background-position: center;
+    height: 475px;
+    color: #fff;
+}
+.logical_service{
+    margin-bottom: 60px;
+}
+.logical_service h3{
+    margin-top: 100px;
+}
+.logical_service p{
+    font-family: "HelveticaNeueCyr-Roman";
+    font-size: 18px;
+    margin: 28px 0;
+    color: #0f1e34;
+}
+.logical_service_point div{
+    font-family: "HelveticaNeueCyr-Bold";
+    font-size: 80px;
+    color: #0da0e3;
+}
+.logical_service_point div span{
+    font-family: "HelveticaNeueCyr-Bold";
+    font-size: 15px;
+    color: #0da0e3;
+    display: block;
+    float: right;
+    line-height: 100px;
+}
+@media screen and (max-width: 1200px) {
+    .logical_service_point div span{
+        display: none;
+    }
+}
+.logical_service_point h4{
+    font-family: "HelveticaNeueCyr-Bold";
+    font-size: 21px;
+    color: #153767;
+}
+.logical_service_point p{
+    font-family: "HelveticaNeueCyr-Roman";
+    font-size: 16px;
+    color: #0f1e34;
+    margin: 24px 0;
+}
+
+.types_of_containers{
+    background-color: #F5F5F5;
+    padding-bottom: 50px;
+}
+.types_of_containers h3{
+    margin-bottom: 220px;
+}
+div.your-class{
+    padding-top: 77px;
+}
+.text_slider_h4{
+    font-family: "HelveticaNeueCyr-Bold";
+    font-size: 35px;
+    color: #153767;
+}
+.text_slider{
+    font-family: "HelveticaNeueCyr-Bold";
+    font-size: 16px;
+    color: #878787;
+    text-transform: uppercase;
+    border: none;
+    padding-top: 5px;
+}
+.slide_img{
+    width: 100%;
+    margin: 0 auto;
+}
+div.your-class ul.slick-dots{
+    top: -130px;
+    bottom: 0;
+    height: 130px;
+}
+.your-class  .slick-dots li{
+    width: 70px;
+    height: 70px;
+    background-color: #fff;
+    border-radius: 50px;
+    box-shadow: 0px 2px 19px #C1C1C1;
+    opacity: 1;
+}
+div.your-class ul.slick-dots li.slick-active{
+    background-color: #0da0e3;
+}
+.your-class  .slick-dots li button:before, .your-class  .slick-dots li button:before{
+    background-image: url(../images/sprite/sprite_container.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    width: 47px;
+    height: 47px;
+    margin: 6px 12px;
+    font-size: 0px;
+    opacity: 1;
+}
+.your-class .slick-dots li#slick-slide00 button:before{
+    background-position-y: -89px !important;
+}
+.your-class .slick-dots li#slick-slide00.slick-active button:before {
+    background-position-y: -137px !important;
+}
+
+.your-class .slick-dots li#slick-slide11 button:before{
+    background-position-y: -184px !important;
+}
+.your-class .slick-dots li#slick-slide11.slick-active button:before {
+    background-position-y: -230px !important;
+}
+
+.your-class .slick-dots li#slick-slide12 button:before{
+    background-position-y: -277px !important;
+}
+.your-class .slick-dots li#slick-slide12.slick-active button:before {
+    background-position-y: -326px !important;
+}
+
+.your-class .slick-dots li#slick-slide13 button:before{
+    background-position-y: -373px !important;
+}
+.your-class .slick-dots li#slick-slide13.slick-active button:before {
+    background-position-y: -419px !important;
+}
+
+.your-class .slick-dots li#slick-slide14 button:before{
+    background-position-y: -468px !important;
+}
+.your-class .slick-dots li#slick-slide14.slick-active button:before {
+    background-position-y: -513px !important;
+}
+
+.your-class .slick-dots li#slick-slide15 button:before{
+    background-position-y: -559px !important;
+}
+.your-class .slick-dots li#slick-slide15.slick-active button:before {
+    background-position-y: -606px !important;
+}
+.your-class .slick-dots li#slick-slide01{
+    margin-right: 0;
+}
+
+.your-class .slick-prev:before, .your-class .slick-next:before{
+    font-size: 0;
+    width: 48px;
+    height: 48px;
+    display: block;
+    background-image: url("../images/sprite/sprite.png");
+}
+.your-class .slick-prev:before {
+    background-position: -16px -816px;
+}
+.your-class .slick-next:before {
+    background-position: -16px -656px;
+}
+.your-class button.slick-prev:hover:before {
+    background-position: -16px -896px;
+}
+.your-class button.slick-next:hover:before{
+    background-position: -16px -736px;
+}
+.slide_link{
+    margin: 0px auto 0 auto;
+    text-align: center;
+    font-family: "HelveticaNeueCyr-Roman";
+    font-size: 16px;
+    color: #0f1e34;
+}
+div.slide_link div{
+    margin: 24px auto;
+}
+div.slick-slider.your-class div.slick-list.draggable {
+    height: 651px;
+}
+.online_consultation{
+    background-image: url("../images/pic/pic_consultation.jpg");
+    background-position: center;
+    min-height: 460px;
+}
+.online_consultation h3{
+    font-family: "HelveticaNeueCyr-Bold";
+    font-size: 45px;
+    color: #153767;
+    margin-top: 130px;
+}
+.online_consultation p{
+    font-family: "HelveticaNeueCyr-Roman";
+    font-size: 16px;
+    color: #0f1e34;
+    margin: 24px 0;
+}
+.prices_and_tariffs h3{
+    font-family: "HelveticaNeueCyr-Bold";
+    font-size: 35px;
+    color: #153767;
+    margin: 100px auto 40px auto;
+}
+.prices_and_tariffs p, .prices_and_tariffs .col-md-12 .col-md-6{
+    font-family: "HelveticaNeueCyr-Roman";
+    font-size: 18px;
+    color: #0f1e34;
+    margin: 28px 0;
+}
+.our_offers{
+    background-color: #F5F5F5;
+    padding-bottom: 50px;
+}
+.our_offers h3{
+    font-family: "HelveticaNeueCyr-Roman";
+    font-size: 33px;
+    color: #0f1e34;
+    text-align: center;
+    max-width: 840px;
+    margin: 90px auto 38px auto;
+}
+.our_offers .col-md-12 .col-md-6 h3{
+    font-family: "HelveticaNeueCyr-Bold";
+    font-size: 32px;
+    color: #153767;
+}
+.our_offers .col-md-12 .col-md-6 p{
+    font-family: "HelveticaNeueCyr-Roman";
+    font-size: 18px;
+    color: #0f1e34;
+    margin: 28px 0;
+}
+.our_offers_img1, .our_offers_img2{
+    height: 419px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.our_offers_img1{
+    background-image: url(../images/pic/container_tracking.png);
+}
+.our_offers_img2{
+    background-image: url(../images/pic/distance_time.png);
+}
+.registration_block, .footer_blue{
+    background-color: #262568;
+    color: #fff;
+}
+.registration_block{
+padding-bottom: 50px;
+}
+.registration_block .col-md-12 .col-md-6 h3{
+    font-family: "HelveticaNeueCyr-Roman";
+    font-size: 40px;
+    margin: 45px 0;
+}
+.registration_block .col-md-12 .col-md-6 span{
+    font-family: "HelveticaNeueCyr-Bold";
+}
+.registration_block .col-md-12 .col-md-6 p{
+    font-family: "HelveticaNeueCyr-Roman";
+    font-size: 18px;
+    margin: 28px 0;
+}
+.registration_info1, .registration_info2 {
+    font-family: "HelveticaNeueCyr-Light";
+    font-size: 16px;
+    margin: 21px 0;
+    background-repeat: no-repeat;
+    padding-left: 60px;
+    background-image: url("../images/sprite/sprite.png");
+    background-repeat: no-repeat;
+    min-height: 50px;
+}
+.registration_info1{
+    background-position: -22px -499px;
+}
+.registration_info2{
+    background-position: -22px -580px;
+}
+.input_form_registration,
+.simple-signup .cap input{
+    background-color: transparent;
+    font-family: "HelveticaNeueCyr-Roman";
+    font-size: 14px;
+    width: 100%;
+    border-radius: 4px;
+    padding: 14px 20px; 
+    border: 1px solid #fff;
+}
+.registration_block .col-md-12 div.col-md-6 form{
+    width: 70%;
+    /*float: right;*/
+    margin-top: 60px;
+}
+div.col-md-6 form .checkbox input[type=checkbox]{
+
+}
+
+div.wrap nav.navbar-inverse.navbar{
+    margin-bottom: 0;
+}
+/*-----------------------------------------*/
+@media screen and (min-width: 993px){
+    .registration_block .col-md-12 div.col-md-6 form {
+        float: right;
+    }
+    .your-class .slick-dots li{
+        margin-right: 6%;
+    }
+    .shippiting h3 {
+        font-size: 65px;
+    }
+    div.slide_link div{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 993px){
+    .shippiting h3 {
+        font-size: 45px;
+    }
+    #slick-slide00 p, #slick-slide01 p, #slick-slide02 p, #slick-slide03 p, #slick-slide04 p, #slick-slide05 p, #slick-slide06 p{
+        display: none;
+    }
+}
+button.slick-next.slick-arrow{
+    right: 30px;
+    z-index: 3;
+}
+button.slick-prev.slick-arrow{
+    left: 0%;
+    z-index: 3;
+}
+@media screen and (min-width: 790px) {
+    button.slick-next.slick-arrow,button.slick-prev.slick-arrow{
+        display: none;
+    }
+}
+#slick-slide00 p, #slick-slide01 p, #slick-slide02 p, #slick-slide03 p, #slick-slide04 p, #slick-slide05 p, #slick-slide06 p{
+    position: absolute;
+    top: 91px;
+    font-size: 13px;
+    font-family: "HelveticaNeueCyr-Roman";
+    color: #153767;
+}
+.mc{
+    margin: 0 auto;
+}
+.user_panel{
+    border: 1px solid #ddd;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 0px auto 30px auto;
+}
+
+ul.user_panel ul.nav-tabs{
+        border-bottom: 1px solid #ddd;
+    margin: 10px 0px 20px 0px;
+    padding-bottom: 20px;
+}
+ul.breadcrumb{
+    border: 1px solid #ddd;
+}
+.contact_h1{
+    border-bottom: 1px solid #ddd;
+    margin: 10px 0px 0px 0px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+div#ui-datepicker-div.ui-datepicker{
+        background-color: #fff;
+    /*border: 1px solid #346FAB;*/
+    padding: 5px;
+}
+table.ui-datepicker-calendar tbody tr td{
+    padding: 2px;
+}
+.clock-block{
+        text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+.form-control{
+    font-size: 15px !important;
+}
+div.modal-dialog div.modal-content{
+        /*max-width: 500px;*/
+    margin: 0 auto;
+    padding: 10px 10px 0;
+}
+.signup_but{
+    font-size: 20px;
+    padding: 10px 30px;
+}
+.simple-signup .cap input{
+     height: 42px;
+    padding: 1px 20px;
+    color:#fff;
+}
+.simple-signup .form-group {
+    margin-bottom: 10px;
+}
+.simple-signup .help-block-error{
+    margin: 5px 0 0 0 !important;
+    font-family: "HelveticaNeueCyr-Roman" !important;
+    font-size: 12px !important;
+}
+button.close_mpdal{
+    position: absolute;
+    right: -16px;
+    top: -16px;
+    width: 32px;
+    height: 32px;
+    background-image: url(../images/envirabox_sprite.png);
+    background-position: -2px -2px;
+    background-color: rgba(0, 0, 0, 0.0);
+}
+.width_img{
+        height: 100px;
+}
+.bg_partners_slide{
+    background-color: #fff;
+    margin: 5px;
+}
+.footer_blue{
+    border-top: 1px solid #F5F5F5;
+}
+.footer_blue h3{
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.modal_info_block{
+        background-color: #fff;
+    padding: 15px;
+    border-radius: 4px;
+}
+.popupimg{float: left;margin: 15px 15px 6px 0;}
+.certeficate{
+    width: 100%;
+}
